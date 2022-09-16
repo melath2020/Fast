@@ -347,9 +347,11 @@ textarea:focus
  
     background-color: rgb(77, 64, 187);
     text-align: center;
+    padding-bottom: 5px;
 }
 .footer-section p{
     color: rgb(245, 233, 233);
     font-size: 13px;
     padding-top: 10px;
+    
 }
