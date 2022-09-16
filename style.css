@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* header-section */
+
+.first-head{
+    background-color: rgb(101, 10, 185);
+    height: 40px;
+    text-align: end;
+}
+.fa-solid{
+    padding-top: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.num{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin-right: 0;
+    font-weight: 500;
+}
+
+
+/* 
+main-head */
+
+.main-head{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 76px;
+    box-shadow: 1px 1px 6px 0.5px rgb(172 169 169);
+    justify-content: center; 
+    align-items: center;
+    display: block;
+   
+
+
+}
+.logo img{
+    position: absolute;
+    height: 90%;
+}
+
+
+.nav{
+    align-items: flex-end;
+    height: 100%;
+    vertical-align:middle;
+  
+
+}
+.menu{
+    padding-top:25px;
+    display: block; 
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(22, 21, 21);
+    margin-left: 25px;
+    text-align: right;
+   align-items: flex-end;
+    
+}
+
+/* hero-section */
+
+.hero-section{
+    background-image:linear-gradient(rgba(164, 182, 245, 0.589), rgba(108, 159, 235, 0.356)), url(assets/images/hero-cover.jpg);
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 0px 0px rgb(75, 74, 74);
+}
+.box-text{
+    box-shadow: 5px 2px 7px -2px rgb(75 74 74);
+    padding: 15px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.582);
+}
+.hero-text{
+    color: rgb(101, 10, 185);
+    font-weight: 700;
+    font-size: 24px;
+    text-shadow: 1px 0px #f7f4f4;
+    
+}
+.box-text p{
+    font-size: 14px;
+    color: rgb(118, 119, 139);
+    text-shadow: 5px 2px 7px -2px rgb(255, 250, 250);
+}
+
+/* ABOUT SECTION */
+
+.about-section{
+
+    background-color:rgba(240, 236, 245, 0.212) ;
+    padding-bottom: 0px;
+}
+.about-body{
+    padding-bottom: 30px;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.952), rgba(255, 254, 254, 0.973)), url(assets/images/about/undraw_happy_news_re_tsbd.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.about-body .right img{
+    box-shadow: -4px -4px 5px -2px rgba(75, 74, 74, 0.637);
+}
+.header-text{
+    position: relative;
+    padding-left: 2px;
+}
+.header-text h1{
+    
+    font-size: 22px;
+    color: rgb(87, 80, 80);
+}
+.header-text .line{
+    position: relative;
+    height: 2px;
+    width: 40px;
+    background-color: rgb(90, 89, 89);
+}
+.header-text .subline{
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: rgb(24, 6, 184);
+}
+.left p{
+    color: #696969;
+}
+
+.about-body h5{
+    color: #696969;
+}
+.socialmedia{
+    padding-top: 10px;
+}
+.socialmedia .fa-brands{
+    font-size: 20px;
+    color: #696969;
+    padding-left: 15px;
+}
+.socialmedia span{
+    font-size: 14px;
+    color: #696969;
+    padding-left: 20px;
+}
+
+
+/* properties-section */
+
+.properties-section{
+    background-color: #f5faff;
+    padding-bottom: 40px;
+}
+.properties-section .header-text  p{
+    padding-top: 10px;
+    text-align: center;
+    color: #696969;
+    font-size: 14px;
+}
+.properties-section .header-text {
+    padding-top: 10px;
+    text-align: center;
+}
+.line-prop{
+    margin: 0 auto;
+    height: 2px;
+    width: 40px;
+    background-color: rgb(90, 89, 89);
+}
+.subline-prop{
+    height: 2px;
+    width: 20px;
+    background-color: rgb(24, 6, 184);
+}
+.card img{
+    height: 200px;
+}
+.properties-section .card{
+   height: 310px;
+   border-bottom: rgb(24, 6, 184) solid 3px;
+}
+.card{
+   box-shadow: 5px 7px 5px -3px rgba(75, 74, 74, 0.37);
+
+}
+.btn-view{
+    text-align: center;
+  
+}
+.btn-view button{
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color:rgb(24, 6, 184);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 13px;
+    transition: 0.10s;
+}
+
+.btn-view button:hover{
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(77, 64, 187) ;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 13px;
+    width: 150px;
+   
+}
+
+/* our-clients */
+
+.our-clients{
+    border-top:rgba(182, 182, 182, 0.068)  solid 2px ;
+    border-left:  rgb(77, 64, 187)  solid 12px;
+    border-right:rgb(77, 64, 187)  solid 12px ;
+    text-align: center;
+    background-color: rgb(246, 245, 252);
+    padding-bottom: 40px;
+}
+.our-clients .container{
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(248, 241, 241);
+}
+.our-clients p{
+    font-size: 14px;
+    padding-top: 20px;
+    text-align: center;
+    color: #696969;
+}
+.our-clients .card{
+    border-radius: 50px 10px;
+    border-left: rgb(77, 64, 187) solid 3px;
+    border-right: rgb(77, 64, 187) solid 3px;
+}
+.our-clients .card img{
+    border-radius: 50px 2px;
+}
+
+/* 
+contact-section */
+
+
+.contact-section{
+    background-color: #eeeaf7;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+.contact-section .header-text{
+    text-align: center;
+}
+.contact-section .fa-brands{
+  color: rgb(108, 108, 109);
+  font-size: 24px;
+  
+}
+.social-network p{
+   
+    font-size: 14px;
+    color: #696969;
+}
+.social-network .fa-brands{
+   
+    padding-left: 5px;
+    color: #696969;
+}
+.address h4{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #3b3b3b;
+}
+.address p{
+
+    font-size: 14px;
+    color: #747171;
+}
+.menu-contact a{
+    margin-top: 40px;
+    text-decoration: none;
+    color: #707070;
+    font-size: 14px;
+}
+.menu-contact h4{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #707070
+}
+.phone .fa-solid{
+    color: rgb(92, 91, 91);
+}
+.phone span{
+    color: rgb(92, 91, 91);
+    font-size: 14px
+}
+.btn-submit{
+    background-color:rgb(77, 64, 187) ;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+input:focus,
+textarea:focus
+
+{
+    outline:none;
+    border: #ffffff solid 1px;
+    box-shadow: none !important;
+}
+
+/* footer-section */
+.footer-section{
+    height: 40px;
+    background-color: rgb(77, 64, 187);
+    text-align: center;
+}
+.footer-section p{
+    color: rgb(245, 233, 233);
+    font-size: 13px;
+    padding-top: 10px;
+}
