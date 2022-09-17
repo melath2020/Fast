@@ -9,7 +9,7 @@ body{
 /* header-section */
 
 .first-head{
-    background-color:#135a70;;
+    background-color:#135a70;
     height: 40px;
     text-align: end;
 }
@@ -73,6 +73,32 @@ main-head */
     text-align: right;
    align-items: flex-end;
     
+}
+
+
+/* mobile-menu */
+
+.menu-mob{
+    color: #3b3b3b;
+    font-size: 25px;
+    margin-top: -27px;
+   text-align: end;
+   width: 100%;
+    font-size: 27px;
+}
+.menu-mob .fa-bars{
+    color: #135a70;;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+    
+}
+.menu-mob .fa-xmark{
+    color: #135a70;;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+   
 }
 
 /* hero-section */
@@ -385,49 +411,87 @@ textarea:focus
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+.menu{
+    display: none;
+}
+#nav-btns{
+    display: block;
+}
+#nav-btns{
+    display:block;
+}
+#close-btns{
+    display: none;
+}
 
 
 
-
-    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+.menu {
+    display: none;
+}
+#nav-btns{
+    display: block;
+}
+#close-btns{
+    display: none;
+}
 
 
 
 
-    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .menu {
+        display: block;
+    }
+    #nav-btns{
+        display: none;
+    }
+    #close-btns{
+        display: none;
+    }
 
 
 
 
 
-    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+    .menu {
+        display: block;
+    }
+    #nav-btns{
+        display: none;
+    }
+    #close-btns{
+        display: none;
+    }
 
 
 
-
-    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+    .menu {
+        display: block;
+    }
+    #close-btns{
+        display: none;
+    }
 
 
 
 
-    
 }
