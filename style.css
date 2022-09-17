@@ -9,6 +9,11 @@ body{
 /* header-section */
 
 .first-head{
+    background-color:#23809c;
+    height: 40px;
+    text-align: end;
+}
+.first-heads{
     background-color:#135a70;
     height: 40px;
     text-align: end;
