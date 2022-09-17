@@ -627,7 +627,7 @@ textarea:focus
 
 #preloader{
     background: rgb(255, 255, 255) url(assets/images/Ball-Drop-Preloader-1-1.gif) no-repeat center;
-    background-size: 45%;
+    background-size:52%;
     height: 100vh;
     width: 100%;
     position: fixed;
