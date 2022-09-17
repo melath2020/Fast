@@ -61,6 +61,9 @@ main-head */
     display: block;
     text-align: right;
 }
+
+  
+
 .menu a{
     text-decoration: none;
     font-size: 14px;
@@ -203,8 +206,13 @@ main-head */
 }
 .card{
    box-shadow: 5px 7px 5px -3px rgba(75, 74, 74, 0.37);
-
+   transition: 0.5s;
 }
+.card:hover{
+    box-shadow: 5px 7px 5px -3px rgba(75, 74, 74, 0.37);
+    transform: scale(1.03);
+    background-color: #f0f9fc80;
+ }
 .btn-view{
     text-align: center;
   
@@ -233,7 +241,24 @@ main-head */
     width: 140px;
    
 }
-
+.first:hover{
+    border-top: green solid 5px;
+}
+.second:hover{
+    border-top: rgb(108, 34, 177) solid 5px;
+}
+.third:hover{
+    border-top: rgb(177, 91, 34) solid 5px;
+}
+.fourth:hover{
+    border-top: rgb(74, 139, 13) solid 5px;
+}
+.fifth:hover{
+    border-top: rgb(139, 89, 13) solid 5px;
+}
+.sixth:hover{
+    border-top: rgb(6, 50, 80) solid 5px;
+}
 /* our-clients */
 
 .our-clients{
@@ -353,5 +378,56 @@ textarea:focus
     color: rgb(245, 233, 233);
     font-size: 13px;
     padding-top: 10px;
+    
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+
+
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+
+
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+
+
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+
+
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
+
+
     
 }
