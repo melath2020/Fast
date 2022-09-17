@@ -60,4 +60,3 @@ remove.addEventListener('click',function(e){
 })
 
 
-AOS.init();
